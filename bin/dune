@@ -1,0 +1,5 @@
+(executable
+ (public_name solana_sdk)
+ (name main)
+ (libraries solana_sdk yojson lwt lwt.unix cohttp cohttp-lwt-unix)
+ (modules rpc main))

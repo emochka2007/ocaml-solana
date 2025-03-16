@@ -1,0 +1,5 @@
+(* module KeyPair = struct *)
+(* (*    generate keypair *) *)
+(* let secret_key_len = 32 *)
+(* let generate = *)
+(* end *)

@@ -24,7 +24,6 @@ module Sender = struct
   open Cohttp_lwt_unix
 
   let uri = ""
-
   let create ~url ~request_id = { url; request_id }
 
   let send ~request =
